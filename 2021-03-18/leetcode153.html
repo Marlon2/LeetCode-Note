@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    var findMin = function (nums) {
+        let n = nums.length;
+        if (n === 1) {
+          return nums[0];
+        }
+        let minNum = 0, count = 0;
+        function binarySearch(arr) {
+          count ++;
+          let len = arr.length;
+          if (len <= 1) {
+            return;
+          }
+          let mid = len / 2 | 0;
+          if (arr[mid - 1] > arr[mid]) {
+            // 找到了
+            minNum = arr[mid];
+            return;
+          }
+          console.log(arr, len, mid)
+          // if (count > 5) {
+          //   return;
+          // }
+          binarySearch(arr.slice(0, mid))
+          binarySearch(arr.slice(mid))
+        }
+        binarySearch(nums);
+        return minNum;
+      };
+      let res = findMin([3, 4, 5, 1, 2])
+      console.log('res', res)
+  </script>
+</body>
+</html>
