@@ -49,4 +49,4 @@
 - [x] [反转链表 II](https://www.wolai.com/marlon/381Q8fQ7xhq2VZzhfgYCSe)
 
 ## 2021/03/26
-- [x] [最长公共子序列 LeetCode-1143]([最长公共子序列](https://www.wolai.com/marlon/jxg3ntWCkN2mEGv1ezgdyw))
+- [x] [最长公共子序列 LeetCode-1143](https://www.wolai.com/marlon/jxg3ntWCkN2mEGv1ezgdyw)
