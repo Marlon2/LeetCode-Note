@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var isPalindrome = function (s) {
+        // 双指针
+        let len = s.length;
+        let i = 0, j = len - 1;
+        let reg = /[0-9a-zA-Z]/;
+        while (i <= j) {
+          // 只考虑字母和数字
+          if (!reg.test(s.charAt(i))) {
+            i++;
+            continue;
+          }
+          if (!reg.test(s.charAt(j))) {
+            j--;
+            continue;
+          }
+          if (s.charAt(i).toLowerCase() !== s.charAt(j).toLowerCase()) {
+            return false
+          }
+          i++;
+          j--;
+        }
+        return true;
+      };
+      let res = isPalindrome("A man, a plan, a canal: Panama")
+      console.log(res)
+  </script>
+</body>
+</html>

@@ -50,3 +50,7 @@
 
 ## 2021/03/26
 - [x] [最长公共子序列 LeetCode-1143](https://www.wolai.com/marlon/jxg3ntWCkN2mEGv1ezgdyw)
+
+## 2021/03/27
+- [x] [验证回文串 LeetCode-125](https://www.wolai.com/marlon/t4RCZVLK3Hs65PTEi2EgzS)
+- [x] [链表中倒数第k个节点](https://www.wolai.com/marlon/vxaj4A9VYg3oNgZk31Xpc5)
