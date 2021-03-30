@@ -63,3 +63,8 @@
 ## 2021/03/29
 - [x] [两数相加 LeetCode-2](https://www.wolai.com/marlon/ofYKDkRx9F2KAxsGqG6B5K)
 - [x] [两数相加 II LeetCode-445](https://segmentfault.com/a/1190000005715074)
+
+## 2021/03/30
+- [x] [最小栈 LeetCode-155](https://www.wolai.com/marlon/f3kHpwVLUiZoiFwgGBXgvk)
+- [x] [丑数 II LeetCode-264](https://www.wolai.com/marlon/vbfkRoWH86fgFPqLauVdBP)
+- [x] [在排序数组中查找元素的第一个和最后一个位置 LeetCode-34](https://www.wolai.com/marlon/adW7eWGkUDJw9zGLvsCEER)

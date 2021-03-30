@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  wahha
+  <script>
+    var searchRange = function (nums, target) {
+        let len = nums.length;
+        // 二分查找
+        let left = 0, right = len - 1, ret = [-1, -1];
+        debugger
+        while (left <= right) {
+          let mid = (left + right) / 2 | 0;
+          debugger
+          if (nums[mid] === target) {
+            ret = [mid, mid];
+            let temp = mid - 1;
+            while (nums[temp] === target) {
+              ret[0] = temp;
+              temp--;
+            }
+            temp = mid + 1;
+            while (nums[temp] === target) {
+              ret[1] = temp;
+              temp++;
+            }
+            return ret;
+          }
+          if (nums[mid] > target) {
+            right = mid - 1;
+          } else {
+            left = mid + 1;
+          }
+        }
+        return ret;
+      };
+      console.log(searchRange([5, 7, 7, 8, 8, 10], 8))
+  </script>
+</body>
+</html>
