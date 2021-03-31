@@ -71,4 +71,4 @@
 
 ## 2021/03/31
 - [x] [重排链表 LeetCode-143](https://www.wolai.com/marlon/vDoQAKYZRwYV3SxLqFrDRn)
-- [ ] [字符串解码 LeetCode-394](https://www.wolai.com/marlon/uz6SwA439K4rvGzGZnK4yY)
+- [x] [字符串解码 LeetCode-394](https://www.wolai.com/marlon/uz6SwA439K4rvGzGZnK4yY)
