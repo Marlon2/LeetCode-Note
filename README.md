@@ -68,3 +68,7 @@
 - [x] [最小栈 LeetCode-155](https://www.wolai.com/marlon/f3kHpwVLUiZoiFwgGBXgvk)
 - [x] [丑数 II LeetCode-264](https://www.wolai.com/marlon/vbfkRoWH86fgFPqLauVdBP)
 - [x] [在排序数组中查找元素的第一个和最后一个位置 LeetCode-34](https://www.wolai.com/marlon/adW7eWGkUDJw9zGLvsCEER)
+
+## 2021/03/31
+- [x] [重排链表 LeetCode-143](https://www.wolai.com/marlon/vDoQAKYZRwYV3SxLqFrDRn)
+- [ ] [字符串解码 LeetCode-394](https://www.wolai.com/marlon/uz6SwA439K4rvGzGZnK4yY)
