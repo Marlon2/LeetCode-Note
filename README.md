@@ -72,3 +72,9 @@
 ## 2021/03/31
 - [x] [重排链表 LeetCode-143](https://www.wolai.com/marlon/vDoQAKYZRwYV3SxLqFrDRn)
 - [x] [字符串解码 LeetCode-394](https://www.wolai.com/marlon/uz6SwA439K4rvGzGZnK4yY)
+
+## 2021/04/01
+- [x] [奇偶链表 LeetCode-328](https://www.wolai.com/marlon/h726botsnzsaE2n9BX3qSn)
+- [x] [字符串相加 LeetCode-415](https://www.wolai.com/marlon/rsVX7NnDzrNybJWn3NhbPd)
+- [x] [下一个更大元素 I LeetCode-496](https://www.wolai.com/marlon/3aSa5ryQRD5gVyL9wwth4Y)
+- [x] [下一个更大元素 II LeetCode-503](https://www.wolai.com/marlon/8bLsGepdAK4913HYgZaUuB)
