@@ -92,3 +92,7 @@
 - [x] [回文子串 LeetCode-647](https://www.wolai.com/marlon/7EwjvJwvEQ4PJbEc1kXfGU)
 - [x] [全排列 LeetCode-46](https://www.wolai.com/marlon/6PVU8KYBycy7mQUatkC6C3)
 - [x] [统计封闭岛屿的数目 LeetCode-1254](https://www.wolai.com/marlon/8H2VMbuSsLDNH7eesquKdv)
+
+## 2021/04/06
+- [x] [反转字符串 LeetCode-344](https://www.wolai.com/marlon/iPEoy4ud3wvpkdNVYTymNs)
+- [x] [跳跃游戏 LeetCode-55](https://www.wolai.com/marlon/fVJXZUk7riez2EzbGaFnGe)
