@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  wahha
+  <script type="text/javascript">
+  var jump = function (nums) {
+      let len = nums.length;
+      let end = 0,  maxPosition = 0; step = 0;
+      for (let i = 0; i < len - 1; i++) {
+        maxPosition = Math.max(maxPosition, i + nums[i]);
+        if (i === end) {
+          end = maxPosition;
+          step++;
+        }
+      }
+      return step;
+    };
+    console.log(jump([2, 3, 1, 1, 4]))
+  </script>
+</body>
+</html>
