@@ -99,3 +99,6 @@
 
 ## 2021/04/07
 - [x] [跳跃游戏 II LeetCode-45](https://www.wolai.com/marlon/nrizi1kzZsn9MNarpo9rMc)
+
+## 2021/04/08
+- [x] [有效的括号字符串 LeetCode-678](https://www.wolai.com/marlon/nrizi1kzZsn9MNarpo9rMc)
