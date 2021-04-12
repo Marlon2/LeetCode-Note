@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  hhahah
+  <script type="text/javascript">
+  var combinationSum = function (candidates, target) {
+      let len = candidates.length;
+      // 回溯算法
+      let stack = [], res = [];
+      dfs(candidates, stack, target, res);
+      console.log(res);
+      return res;
+    };
+    function dfs(arr, stack, target, res) {
+      console.log(stack, target, res);
+      // debugger
+      if (target === 0) {
+        // 打印栈
+        res.push(stack);
+        return;
+      }
+      if (stack.length === arr.length) {
+        return;
+      }
+      for (let i = 0; i < arr.length; i++) {
+        if (!stack.includes(arr[i])) {
+          stack.push(arr[i]);
+          dfs(arr, stack, target - arr[i], res);
+          stack.pop();
+        }
+      }
+    }
+    // let candidates = [2, 3, 6, 7], target = 7;
+    // console.log(combinationSum(candidates, target))
+    // 完整的实现
+      class MyPromise {
+        callbacks = [];
+        state = 'pending';
+        value = null;
+        constructor(fn) {
+          fn(this._resolve.bind(this));
+        }
+        then(onFulfilled) {
+          return new Promise(resolve => {
+            this._handle({
+              onFulfilled: onFulfilled || null,
+              resolve: resolve
+            })
+          })
+        }
+        _handle(callback) {
+          if (this.state === 'pending') {
+            this.callbacks.push(callback);
+            return;
+          }
+          // 如果then中没有传递任何东西
+          if (!callback.onFulfilled) {
+            callback.resolve(this.value);
+            return;
+          }
+          const ret = callback.onFulfilled(this.value);
+          callback.resolve(ret);
+        }
+        _resolve(value) {
+          if (value && (typeof value === 'object' || typeof value === 'function')) {
+            const then = value.then
+            if (typeof then === 'function') {
+              then.call(value, this._resolve.bind(this));
+              return;
+            }
+          }
+          this.state = 'fulfilled';
+          this.value = value;
+          this.callbacks.forEach(callback => this._handle(callback));
+        }
+      }
+      let p = new MyPromise((resolve, reject) => {
+        setTimeout(() => resolve(123), 3000)
+      }).then((res) => {
+        console.log(res)
+        return res;
+      }).then((res) => {
+        console.log('111', res)
+      })
+  </script>
+</body>
+</html>
