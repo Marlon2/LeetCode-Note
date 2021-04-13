@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  wahha
+  <script type="text/javascript">
+    var combinationSum2 = function (candidates, target) {
+        candidates.sort((a, b) => a - b);
+        let res = [];
+        console.log(candidates)
+        function dfs(target, path, idx) {
+          console.log(target, path, idx)
+          if (target === 0) {
+
+            res.push([...path]);
+            return;
+          }
+          for (let i = idx; i < candidates.length; i++) {
+            if (target < candidates[i]) {
+              break;
+            }
+            if (i > idx && candidates[i] === candidates[i - 1]) {
+              continue;
+            }
+            path.push(candidates[i]);
+            dfs(target - candidates[i], path, i + 1);
+            path.pop();
+          }
+        }
+        dfs(target, [], 0);
+        return res;
+      };
+      let rt = combinationSum2([10, 1, 2, 7, 6, 1, 5], 8);
+      console.log(rt);
+  </script>
+</body>
+</html>

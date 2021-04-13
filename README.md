@@ -106,3 +106,7 @@
 ## 2021/04/09
 - [x] [翻转二叉树 LeetCode-226](https://www.wolai.com/marlon/cDFhmyNiCKNZfF3XAkbjRA)
 - [x] [剑指 Offer 25. 合并两个排序的链表](https://www.wolai.com/marlon/vANnzfhEbhma3NwqmwVPWx)
+
+## 2021/04/12
+- [x] [剑指 Offer 57. 和为s的两个数字](https://www.wolai.com/marlon/hyNcKQq5MYr5KSNWN1BVgB)
+- [x] [和为K的子数组 LeetCode-560](https://www.wolai.com/marlon/4APJ2kvXgiHNYB4wymNNRT)
