@@ -110,3 +110,8 @@
 ## 2021/04/12
 - [x] [剑指 Offer 57. 和为s的两个数字](https://www.wolai.com/marlon/hyNcKQq5MYr5KSNWN1BVgB)
 - [x] [和为K的子数组 LeetCode-560](https://www.wolai.com/marlon/4APJ2kvXgiHNYB4wymNNRT)
+
+## 2021/04/13
+- [x] [具有给定数值的最小字符串 LeetCode-1663](https://www.wolai.com/marlon/ongh13GdZryyxb2nGUAheo)
+- [x] [剑指 Offer 55 - I. 二叉树的深度](https://www.wolai.com/marlon/wcYAiH17qyLDHKSjQLhMS)
+- [x] [二叉树的最小深度 LeetCode-111](https://www.wolai.com/marlon/dce2zoJnBQMJ2ZiZZVavVx)
